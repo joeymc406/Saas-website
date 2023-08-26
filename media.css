@@ -1,0 +1,389 @@
+@media screen and (max-width: 768px) {
+    [aria-controls="navbar-dropdown"] {
+            display: block;
+            margin-right: 56px;
+            margin-top: 42px;
+        }
+    
+        [aria-expanded="false"]~ul {
+            display: none;
+        }
+    
+        [aria-expanded="true"]~ul {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: var(--size-50);
+            background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.7));
+            width: 100%;
+            text-align: right;
+            box-shadow: 0 0 20px rgba(52, 49, 75, 0.1);
+        }
+    
+        [aria-expanded="true"]~ul ul li {
+            margin-right: var(--size-20);
+            color: var(--font-color-dark);
+        }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .hero-container {
+        width: 320px;
+    }
+
+    .header-nav-parent {
+        margin: 0;
+    }
+
+    .template-card {
+        margin-bottom: 32px;
+    }
+
+    .top-container {
+        width: 100%;
+    }
+
+    .why-front-para {
+        font-size: 18px;
+    }
+
+    .bottom-container {
+        width: 508px;
+    }
+
+    .bottom-item-container {
+        width: 508px;
+        gap: 74px;
+        margin-left: 112px;
+    }
+
+    .bottom-items p {
+        font-size: 16px;
+    }
+
+    .circle-container {
+        width: 56px;
+        height: 56px;
+        border-radius: 28px;
+    } 
+
+    .empty-component {
+        margin-top: 28px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .video-section {
+        height: 330px;
+        width: 100%;
+    }
+
+    .video-box {
+        width: 100%;
+    }
+
+    .hubspot-section {
+        margin-top: 24px;
+    }
+
+    .hubspot-section-left {
+        transform: scale(0.75, 0.75);
+    }
+    
+    .hubspot-section-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hubspot-testimonial p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .logo-image-item {
+        transform: scale(0.75, 0.75);
+    }
+
+    .card-container-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin: 36px;
+    }
+
+    .price {
+        text-align: center;
+    }
+
+    .form-testimonial-container {
+        margin-left: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 36px;
+    }
+
+    .form-container-right {
+        max-width: 695px;
+    }
+
+    .footer-logo-container {
+        margin-bottom: 354px;
+    }
+
+    .footer-top {
+        gap: 44px;
+    }
+
+    .footer-dropdown select {
+        width: 178px;
+    }
+
+    .item-right {
+        margin-right: -36px;
+    }
+}
+
+
+
+ @media screen and (max-width: 375px) {
+    .body-container {
+        width: 100%;
+        max-width: 374px;
+    }
+
+    .hero-parent-container {
+        margin-bottom: 36px;
+    }
+
+    .navbar .navbar-container {
+        margin: 0 36px;
+    }
+
+    .navbar-toggler span {
+        font-size: 1.75rem;
+    }
+
+    [aria-controls="navbar-dropdown"] {
+        display: block;
+        margin-right: 32px;
+        margin-top: 30px;
+    }
+
+    .project-logo {
+        width: 160px;
+    }
+
+    .hero-header {
+        text-align: center;
+    }
+
+    .hero-header h1 {
+        font-size: 36px;
+    }
+
+    .logo-container {
+        gap: 24px;
+    }
+
+    .logo-container-top .icon-2 {
+        margin-left: -20px;
+    }
+
+    .logo-container-top .icon-3 {
+        margin-left: 6px;
+    }
+
+    .logo-container-mid {
+        margin-top: 0px;
+        margin-right: 80px;
+    }
+
+    .logo-container-mid .icon-2 {
+        margin-left: 76px;
+    }
+
+    .logo-container-bottom {
+        margin-left: 50px;
+        gap: 76px;
+    }
+
+    .logo-container-bottom .icon-2 {
+        margin-top: 22px;
+    }
+
+    .template-card-container {
+        margin-left: 12px;
+    }
+
+    .perspective-section {
+        height: auto;
+        width: 348px;
+    }
+
+    .perspective-section-left {
+        margin: 0 auto;
+    }
+
+    .perspective-section-left h2 {
+        font-size: 24px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .why-front-container {
+        margin: 0 auto;
+    }
+
+    .section-header p {
+        font-size: 16px;
+    }
+
+    .bottom-container-parent {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bottom-container {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .empty-component {
+        display: none;
+    }
+
+    .bottom-item-container {
+        margin-top: 18px;
+        gap: 36px;
+        margin-right: 120px;
+    }
+
+    .bottom-items p {
+        font-weight: 600;
+    }
+
+    .video-section {
+        margin-top: 36px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 368px;
+        background-size: 366px auto;
+        background-repeat:no-repeat;
+    }
+
+    .video-box {
+        width: 348px;
+    }
+    
+    .video-btn {
+        top: 25%;
+    }
+
+    .hubspot-section {
+        width: 360px;
+        margin-top: -140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hubspot-section-left {
+        transform: scale(.85, .65);
+    }
+
+    .hubspot-child-left, .hubspot-child-right {
+        transform: scale(.75 .75);
+    }
+
+    .hubspot-child-right .hubspot-img-1 {
+        width: 340px;
+    }
+
+    .hubspot-testimonial {
+        margin-bottom: 30px;
+    }
+
+    .hubspot-testimonial p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .logo-section {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-image-section {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(152px, 1fr));
+        justify-items: center;
+        margin-bottom: 0px;
+    }
+
+    .price {
+        justify-content: center;
+    }
+
+    .form-testimonial-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hire-us {
+        text-align: center;
+    }
+
+    .profile-container {
+        text-align: center;
+    }
+
+    textarea {
+        width: 246px;
+    }
+
+    .check-box-input {
+        margin: 12px;
+    }
+
+    .privacy-policy-right {
+        display: none;
+    }
+
+    .footer-nav-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo-container {
+        margin-bottom: -62px;
+    }
+
+    .footer-top {
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .site-map {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .copyright-section {
+        text-align: center;
+    }
+
+    .info {
+        width: 100%;
+    }
+}
+
